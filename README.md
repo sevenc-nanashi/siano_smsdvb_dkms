@@ -1,5 +1,5 @@
 # siano_smsdvb_dkms
-This repository contains a copy of the siano smsdvb driver for the Linux kernel, with DKMS configuration.
+This repository contains a copy of the siano smsdvb driver from the Linux kernel and with DKMS configuration.
 
 # about
 siano smsdvbドライバにdkms.confを付属させたものです。
@@ -40,4 +40,5 @@ sudo rm -r /usr/src/siano_smsdvb_dkms-1.0
 以下参考にさせていただきました。ありがとうございます。
 - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/media/common/siano?h=v6.8
 - https://www.gyoun.net/blog/solve_tunner_problem/
+
 - https://gihyo.jp/admin/serial/01/ubuntu-recipe/0791
