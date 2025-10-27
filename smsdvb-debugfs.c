@@ -481,7 +481,7 @@ int smsdvb_debugfs_create(struct smsdvb_client_t *client)
 	client->debug_data        = debug_data;
 	client->prt_dvb_stats     = smsdvb_print_dvb_stats;
 	client->prt_isdb_stats    = smsdvb_print_isdb_stats;
-#	client->prt_isdb_stats_ex = smsdvb_print_isdb_stats_ex;
+	// client->prt_isdb_stats_ex = smsdvb_print_isdb_stats_ex;
 
 	init_waitqueue_head(&debug_data->stats_queue);
 	spin_lock_init(&debug_data->lock);
